@@ -61,7 +61,6 @@ nav {
 }
 .title {
   font-family: "Great Vibes", cursive;
-
   font-size: 1.5rem;
   text-decoration: none;
   font-weight: bold;
@@ -81,19 +80,16 @@ nav {
   width: 50%;
   margin: auto;
   display: block;
-  margin: 20px 0;
 }
 .pic {
   width: 100%;
   margin: auto;
   display: block;
-  margin: 20px 0;
 }
 h1 {
   text-align: center;
   margin-bottom: 20px;
   width: 50%;
-  margin: auto;
   border-bottom: 1px dotted #ccc;
   padding-bottom: 20px;
   margin-top: 70px;
