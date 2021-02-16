@@ -4,29 +4,25 @@
 
 > Clone of NY Times magazine article.
 
+# Description
+
+> A clone of NY times magazine article built with pure html and css, using positioning techniques with flex.
+
 ![screenshot](./app_screenshot.png)
 
 ## Built With
 
 - HTML/CSS
 
-## Live Demo
-
-To get a local copy up and running follow these simple example steps.
-
 ### Prerequisites
 
 ### Setup
 
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
+Clone the repository to your local machine and run it in browser.
 
 ## Authors
+
+Marko Zecevic
 
 👤 **Author1**
 
