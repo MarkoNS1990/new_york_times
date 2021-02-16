@@ -2,11 +2,9 @@
 
 # Project Name
 
-> NY Times magazine Homepage.
+> Clone of NY Times magazine article.
 
 ![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
 
 ## Built With
 
