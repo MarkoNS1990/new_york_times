@@ -43,6 +43,23 @@ p {
   line-height: 1.5rem;
 }
 
+.red {
+  color: red;
+  font-size: 0.7rem;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.hr-margin {
+  margin: 20px;
+}
+
 /*
     ==============================================
                 ****** GLOBAL ******
@@ -194,12 +211,32 @@ aside {
   font-family: "Roboto", sans-serif;
 }
 
+.fas {
+  margin-right: 10px;
+}
+
 .item {
   font-size: 0.6rem;
   margin-top: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.hr-top {
+  margin-top: 30px;
+}
+
+.desc2 {
+  width: 50%;
+  margin: auto;
+  padding-bottom: 30px;
+}
+
+.fa-comment {
+  color: blue;
+  margin-left: 20px;
+  margin-right: 0;
 }
 
 .aside-a {
