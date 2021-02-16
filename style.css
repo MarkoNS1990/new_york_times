@@ -3,8 +3,12 @@
                 ****** RESET ******
     ==============================================
 */
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Libre+Franklin:wght@100&family=Roboto:wght@300&display=swap");
+
 body {
   margin: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: whitesmoke;
 }
 
 :root {
@@ -28,11 +32,32 @@ ul {
 
 a {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 a:hover {
   color: #333;
+}
+
+p {
+  line-height: 1.5rem;
+}
+
+.red {
+  color: red;
+  font-size: 0.7rem;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.hr-margin {
+  margin: 20px;
 }
 
 /*
@@ -40,3 +65,186 @@ a:hover {
                 ****** GLOBAL ******
     ==============================================
 */
+
+/* Header */
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 10vh;
+  background-color: #fff;
+  padding: 0 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+.title {
+  font-family: "Great Vibes", cursive;
+  font-size: 1.5rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.icons {
+  margin-bottom: 20px;
+}
+
+.fab,
+.far {
+  font-size: 1.5rem;
+  margin-right: 10px;
+}
+
+.container {
+  margin: auto;
+  width: 40%;
+}
+
+.topic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.pic-big {
+  width: 50%;
+  margin: auto;
+  display: block;
+}
+
+.pic {
+  width: 100%;
+  margin: auto;
+  display: block;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  width: 50%;
+  border-bottom: 1px dotted #ccc;
+  padding-bottom: 20px;
+  margin-top: 70px;
+  text-transform: capitalize;
+  font-style: italic;
+}
+
+.desc {
+  font-size: 0.8rem;
+  margin: 20px 0;
+}
+
+button {
+  background-color: slategray;
+  border-radius: 5px;
+  padding: 10px 15px;
+  border: none;
+  color: #fff;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.date {
+  font-size: 0.8rem;
+}
+
+iframe {
+  display: block;
+  margin: 30px 0 5px 0;
+  width: 100%;
+}
+
+footer {
+  margin: auto;
+  background-color: #fff;
+  padding-top: 30px;
+}
+
+.list {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.list1,
+.list2,
+.list3 {
+  display: flex;
+  flex-direction: column;
+}
+
+h4 {
+  margin-bottom: 10px;
+}
+
+h3 {
+  text-align: left;
+  margin: 30px;
+  padding-left: 30px;
+  font-family: "Great Vibes", cursive;
+}
+
+.footer-container {
+  width: 70%;
+  margin: auto;
+}
+
+aside {
+  position: absolute;
+  right: 120px;
+  top: 1000px;
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+}
+
+.aside-h3 {
+  text-align: left;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.fas {
+  margin-right: 10px;
+}
+
+.item {
+  font-size: 0.6rem;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hr-top {
+  margin-top: 30px;
+}
+
+.desc2 {
+  width: 50%;
+  margin: auto;
+  padding-bottom: 30px;
+}
+
+.fa-comment {
+  color: blue;
+  margin-left: 20px;
+  margin-right: 0;
+}
+
+.aside-a {
+  margin-top: 10px;
+}
+
+.aside-img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
