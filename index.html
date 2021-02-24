@@ -40,7 +40,7 @@
     <a href="#"><i class="far fa-envelope"></i></a>
     <a href="#"><i class="fab fa-instagram"></i></a> 
     <a href="#"><i class="fab fa-linkedin-in"></i></a>
-    <a href="#"><i class="far fa-comment"></i></a>
+    <a href="#form"><i class="far fa-comment"></i></a>
     <span class='red'>714</span>
   
   </div>
@@ -148,8 +148,33 @@ So the future of the cosmos is perhaps bright and fecund, but do not bother aski
 We might never know what happened before inflation, at the very beginning, because inflation erases everything that came before it. All the chaos and randomness of the primordial moment are swept away, forever out of our view.
 <br><br>
 “If you trace your cosmic roots,” said Abraham Loeb, a Harvard-Smithsonian astronomer who was not part of the team, “you wind up at inflation.” <br><br>
+
+<form id='form'>
+  <div class="name"><label for="name">Name</label>
+    <input type="text" id='name' required maxlength='20'></div>
+  <div class="email"><label for="email">Email</label>
+    <input type="email" id='email' required maxlength='20'></div>
+  
+  <textarea cols="30" rows="10" placeholder='Type your comment here...' required maxlength='250'></textarea>
+  <p>What is your overall opinion about the article?</p>
+  <div class="options"><input type="radio" id='positive' name='opinion'><label for="positive">Positive</label>
+    
+    <input type="radio" id='negative' name='opinion'><label for="negative">Negative</label>
+    <input type="radio" id='neutral' name='opinion'><label for="neutral">Neutral</label>
+  
+  </div>
+  
+  <hr class='form-hr'>
+  <div class="news"><input type="checkbox" id='news'><label for="news" class='date'>Subscribe to newsletter</label><br></div>
+  
+
+  <button type='submit' >Send</button>
+</form>
+
 </div>
 </section>
+
+
 
 <footer>
   
@@ -210,6 +235,8 @@ We might never know what happened before inflation, at the very beginning, becau
     <a href="#">Advertise</a>
   </p>
 </div>
+
+
 </footer>
 <aside>
   <h3 class='aside-h3'>Editor's Picks</h3>
